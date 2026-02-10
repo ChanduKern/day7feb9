@@ -12,7 +12,7 @@ class Engine {
 
 class Car {
     private String brand;
-    private Engine engine; // HAS-A relationship
+    private Engine engine; 
 
     public Car(String brand, Engine engine) {
         this.brand = brand;
@@ -33,3 +33,4 @@ public class Main {
         c1.displayDetails();
     }
 }
+
